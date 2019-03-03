@@ -1,0 +1,41 @@
+{
+  "name": "dado.dev",
+  "version": "1.0.0",
+  "description": "Personal Website v3",
+  "main": "src/pages/index.js",
+  "dependencies": {
+    "gatsby": "^2.1.19",
+    "gatsby-image": "^2.0.30",
+    "gatsby-plugin-manifest": "^2.0.20",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-sharp": "^2.0.23",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-sharp": "^2.1.15",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 8888",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "yarn dev -p 8888",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damdeez/dado.dev.git"
+  },
+  "author": "Damir Harambasic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damdeez/dado.dev/issues"
+  },
+  "homepage": "https://github.com/damdeez/dado.dev#readme"
+}
