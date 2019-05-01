@@ -1,7 +1,10 @@
-import React from "react"
+import React from 'react';
+import styles from './global.module.scss';
 
 const Main = () => (
-  <main style={{ color: `purple`, fontSize: `42px` }}>dado.dev!</main>
-)
+  <main className={styles.main}>
+    Welcome to the new Dado.dev
+  </main>
+);
 
 export default Main;

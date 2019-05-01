@@ -1,0 +1,66 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "history": true,
+    "window": true,
+    "google": true,
+    "gtag": true,
+    "jQuery": true,
+    "localStorage": true
+  },
+  "rules": {
+    "max-len": ["error", 120, 4, {
+      "ignoreUrls": true,
+      "ignoreComments": true,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }],
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "CallExpression[callee.name='getState']",
+        "message": "Actions must be kept pure. Pass in the needed piece of state as a param."
+      }
+    ],
+    "no-underscore-dangle": 0,
+    "import/prefer-default-export": 0,
+    "import/extensions": 0,
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/label-has-for": [2, {
+      "components": ["Label"],
+      "required": {
+        "every": ["nesting", "id"]
+      },
+      "allowChildren": true
+    }],
+    "react/destructuring-assignment": 0,
+    "react/prefer-stateless-function": [0, {
+      "ignorePureComponents": true
+    }],
+    "no-unused-vars": 1,
+    "react/no-unused-prop-types": 1,
+    "react/jsx-one-expression-per-line": [0, {
+      "allow": "single-child"
+    }],
+    "react/no-unused-state": 1,
+    "react/sort-prop-types": [1, {
+      "callbacksLast": false,
+      "ignoreCase": true,
+      "requiredFirst": true
+    }]
+  }
+}
