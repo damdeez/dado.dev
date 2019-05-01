@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 module.exports = {
   siteMetadata: {
     title: 'Dado.dev',
@@ -5,8 +6,14 @@ module.exports = {
     description: 'Dado is the best!',
   },
   plugins: [
-    'gatsby-plugin-eslint',
-    'gatsby-plugin-sass',
-    '@danbruegge/gatsby-plugin-stylelint',
+    {
+      resolve: 'gatsby-plugin-eslint',
+    },
+    {
+      resolve: 'gatsby-plugin-sass',
+    },
+    {
+      resolve: '@danbruegge/gatsby-plugin-stylelint',
+    },
   ],
 };
