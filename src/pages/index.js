@@ -1,9 +1,18 @@
 import React from 'react';
-import styles from './global.module.scss';
+
+import Header from '../components/Header/Header';
+import './global.scss';
 
 const Main = () => (
-  <main className={styles.main}>
-    Welcome to the new Dado.dev
+  <main>
+    <Header />
+    <section className="links">
+      <a href="https://github.com/damdeez">Github</a>
+      <a href="https://twitter.com/damdeez">Twitter</a>
+      <a href="https://www.linkedin.com/in/damirharambasic/">Linkedin</a>
+      <a href="/resume">Resume</a>
+    </section>
+    <footer>{' '}</footer>
   </main>
 );
 
