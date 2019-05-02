@@ -15,5 +15,8 @@ module.exports = {
     {
       resolve: '@danbruegge/gatsby-plugin-stylelint',
     },
+    {
+      resolve: 'gatsby-plugin-react-helmet',
+    },
   ],
 };
