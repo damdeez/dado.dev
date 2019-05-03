@@ -8,7 +8,7 @@
   width: 70%;
 
   header {
-    img {
+    #resume-img {
       border: 2px solid $color1;
       border-radius: 50%;
       display: inline-block;
@@ -21,7 +21,7 @@
     h1 {
       display: inline-block;
       font-size: 36px;
-      margin: 10px 0 0 10px;
+      margin: 10px 0 0 15px;
       vertical-align: top;
       width: 80%;
 
@@ -46,17 +46,33 @@
       font-weight: 600;
       margin: 15px 0;
     }
+
+    .summary-paragraph {
+      line-height: 18px;
+    }
   }
   
   main {
+    padding-top: 10px;
+
     h3 {
       font-weight: 600;
       margin: 15px 0;
     }
 
-    ul {
-      margin: 20px 0;
+    .skills-wrapper,
+    .job-wrapper {
+      margin: 25px 0;
       padding: 0;
+
+      h4,
+      h5 {
+        margin: 10px 0;
+      }
+
+      h4 {
+        font-weight: 600;
+      }
 
       li {
         font-size: 90%;
@@ -99,16 +115,6 @@
           line-height: 15px;
         }
       }
-
-    }
-
-    h4,
-    h5 {
-      margin: 10px 0;
-    }
-
-    .span-light {
-      font-weight: normal;
     }
   }
   

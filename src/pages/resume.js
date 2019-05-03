@@ -7,17 +7,17 @@ import damirJpg from '../images/damir.jpg';
 const Resume = () => (
   <section id="resume-container">
     <header>
-      <img src={damirJpg} id="profile_pic" className="damir_pic" alt="Damir" />
+      <img src={damirJpg} id="resume-img" alt="Damir" />
       <h1>Damir Harambasic
         <span><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
         <span><a href="tel:1-801-865-4342">(801) 865-4342</a></span>
       </h1>
-      <h3>Summary</h3>
-      <p>I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.</p>
+      <h3>SUMMARY</h3>
+      <p className="summary-paragraph">I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.</p>
     </header>
     <main>
-      <h3>Skills</h3>
-      <ul>
+      <h3>SKILLS</h3>
+      <ul className="skills-wrapper">
         <li>+ HTML5</li>
         <li>
           <span className="tooltip-target">+ CSS3 *
@@ -41,7 +41,7 @@ const Resume = () => (
                 <li>JSON</li>
                 <li>RESTful API&apos;s</li>
                 <li>GruntJS &amp; Webpack</li>
-                <li>NodeJS</li>
+                <li>Node.js</li>
                 <li>Express</li>
                 <li>GatsbyJS</li>
               </ul>
@@ -56,19 +56,19 @@ const Resume = () => (
         <li>+ Communication &amp; Liaison</li>
       </ul>
 
-      <h3>Experience</h3>
-      <ul>
+      <h3>EXPERIENCE</h3>
+      <ul className="job-wrapper">
         <h4>Frontend Developer <span className="span-light">@</span> tZERO</h4>
         <h5>September 2018 - Present</h5>
-        <li>- Building the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.</li>
+        <li>- Building the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
       </ul>
 
-      <ul>
+      <ul className="job-wrapper">
         <h4>Frontend Developer - Product Page Dev <span className="span-light">@</span> Overstock.com</h4>
         <h5>October 2015 - September 2018</h5>
         <li>Product Page Dev Team:</li>
         <li>- Currently handling new feature implementation, A/B Tests, and squishing bugs on product pages.</li>
-        <li>- Work on a full-stack NodeJS, Express, React, Redux mobile web app as well as various client-side repo&apos;s.</li>
+        <li>- Work on a full-stack Node.js, Express, React, Redux mobile web app as well as various client-side repo&apos;s.</li>
         <li>- Involved in the design process of product with UX and Product teammates.</li>
         <li>- Build tools for our Front-end workflow. Such as implementing ES6 and ReactJS tooling to our repo a few years ago.</li>
         <li>- Create reusable React components and NPM modules that are used by teams across Overstock.com.</li>
@@ -77,7 +77,7 @@ const Resume = () => (
         <li><strong>Previous Teams:</strong> ShopEx Dev, Production Marketing Dev.</li>
       </ul>
 
-      <ul>
+      <ul className="job-wrapper">
         <h4>Front End Developer - Production <span className="span-light">@</span> Overstock.com</h4>
         <h5>October 2014 - October 2015</h5>
         <li>Production Web Team:</li>
@@ -89,7 +89,7 @@ const Resume = () => (
         </li>
       </ul>
 
-      <ul>
+      <ul className="job-wrapper">
         <h4>Freelance Developer and Designer <span className="span-light">@</span> Damir Hara Design</h4>
         <h5>March 2013 - Present</h5>
         <li>http://www.damirhara.com</li>
@@ -97,7 +97,7 @@ const Resume = () => (
         <li><strong>Clients Include:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
       </ul>
 
-      <ul>
+      <ul className="job-wrapper">
         <h4>Integration Specialist/eCommerce Coordinator <span className="span-light">@</span> Experticity</h4>
         <h5>December 2012 - October 2014</h5>
         <li>- Work with clients, Project Managers and Account Coordinators to handle builds, updates, integration, and
