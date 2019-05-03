@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 
-import Header from '../components/header/Header.js';
+import Header from '../components/Header/Header';
 import './global.scss';
 import favicon from '../images/favicon.ico';
 
