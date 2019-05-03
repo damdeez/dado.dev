@@ -2,7 +2,7 @@
   "name": "dado.dev",
   "version": "1.0.0",
   "description": "Personal Website v3",
-  "main": "src/pages/main.jsx",
+  "main": "src/pages/index.js",
   "dependencies": {
     "gatsby": "^2.1.19",
     "gatsby-image": "^2.0.30",

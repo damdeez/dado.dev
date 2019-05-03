@@ -1,11 +1,21 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import './resume.scss';
 import damirJpg from '../images/damir.jpg';
+import favicon from '../images/favicon.ico';
 
 const Resume = () => (
   <section id="resume-container">
+    <Helmet>
+      <meta
+        name="description"
+        content="Damir Harambasic is a Software Engineer based out of Salt Lake City, Utah, USA focused on UI/UX"
+      />
+      <title>Damir Resume</title>
+      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+    </Helmet>
     <header>
       <img src={damirJpg} id="resume-img" alt="Damir" />
       <h1>Damir Harambasic
