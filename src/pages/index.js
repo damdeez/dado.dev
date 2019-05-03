@@ -1,12 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'gatsby';
 
 import Header from '../components/Header/Header';
 import './global.scss';
 import favicon from '../images/favicon.ico';
 
 const Main = () => (
-  <main>
+  <main className="main-page-content">
     <Helmet>
       <meta
         name="description"
@@ -20,7 +21,7 @@ const Main = () => (
       <a href="https://github.com/damdeez">Github</a>
       <a href="https://twitter.com/damdeez">Twitter</a>
       <a href="https://www.linkedin.com/in/damirharambasic/">Linkedin</a>
-      <a href="/resume">Resume</a>
+      <Link to="/resume">Resume</Link>
       <a href="mailto:damir.hara@gmail.com">Contact Me</a>
     </section>
     <footer>{' '}</footer>
