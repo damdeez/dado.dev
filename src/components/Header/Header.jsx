@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './header.scss';
-import damirJpg from '../../images/damir.jpg';
+import damirJpg from '../../files/damir.jpg';
 
 const Header = () => (
   <header>

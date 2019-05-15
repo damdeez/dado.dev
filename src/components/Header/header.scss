@@ -1,5 +1,15 @@
 @import '../../styles/variables.scss';
 
+@keyframes blink {  
+  0% { 
+    opacity: 0;
+  }
+  
+  50% { 
+    opacity: 1;
+  }
+}
+
 header {
   .damir-img {
     border: 5px solid $color1;
@@ -8,15 +18,23 @@ header {
     width: 250px;
   }
 
-  h1 {
-    font-family: $helvetica-font-family;
-    font-size: 48px;
+  h1,
+  h2 {
+    font-family: $inconsolata-font-family;
+    font-weight: 600;
     margin: 20px 0;
   }
 
+  h1 {
+    font-size: 48px;
+
+    &::before {
+      animation: blink 1s steps(1, end) infinite;
+      content: '> ';
+    }
+  }
+
   h2 {
-    font-family: $helvetica-font-family;
     font-size: 34px;
-    margin: 20px 0;
   }
 }

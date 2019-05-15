@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 import Header from '../components/Header/Header';
 import './global.scss';
-import favicon from '../images/favicon.ico';
+import favicon from '../files/favicon.ico';
 
 const Main = () => (
   <main className="main-page-content">
