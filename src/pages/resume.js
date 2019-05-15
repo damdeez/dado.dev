@@ -3,8 +3,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import './resume.scss';
-import damirJpg from '../images/damir.jpg';
-import favicon from '../images/favicon.ico';
+import damirJpg from '../files/damir.jpg';
+import favicon from '../files/favicon.ico';
+import resumePdf from '../files/DamirResume2019.pdf';
 
 const Resume = () => (
   <section id="resume-container">
@@ -129,6 +130,7 @@ const Resume = () => (
     <footer>
       <section>
         <div className="footer-button"><a href="mailto:damir.hara@gmail.com">Get In Touch</a></div>
+        <div className="footer-button"><a href={resumePdf}>Download PDF</a></div>
       </section>
     </footer>
   </section>
