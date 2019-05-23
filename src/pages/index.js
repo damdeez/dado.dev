@@ -1,21 +1,14 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 
+import HelmetMeta from '../components/Header/HelmetMeta';
 import Header from '../components/Header/Header';
 import './global.scss';
 import favicon from '../files/favicon.ico';
 
 const Main = () => (
   <main className="main-page-content">
-    <Helmet>
-      <meta
-        name="description"
-        content="Damir Harambasic is a Software Engineer based out of Salt Lake City, Utah, USA focused on UI/UX"
-      />
-      <title>Web Development by Damir</title>
-      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
-    </Helmet>
+    <HelmetMeta pageTitle="Web Development by Damir" />
     <Header />
     <section className="links">
       <a href="https://github.com/damdeez">Github</a>
