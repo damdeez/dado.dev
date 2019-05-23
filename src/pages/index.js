@@ -11,10 +11,10 @@ const Main = () => (
     <HelmetMeta pageTitle="Web Development by Damir" />
     <Header />
     <section className="links">
+      <Link to="/resume">Resume</Link>
       <a href="https://github.com/damdeez">Github</a>
       <a href="https://twitter.com/damdeez">Twitter</a>
-      <a href="https://www.linkedin.com/in/damirharambasic/">Linkedin</a>
-      <Link to="/resume">Resume</Link>
+      <a href="https://www.linkedin.com/in/damirharambasic/">LinkedIn</a>
       <a href="mailto:damir.hara@gmail.com">Contact Me</a>
     </section>
     <footer>{' '}</footer>

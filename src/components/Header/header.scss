@@ -21,12 +21,12 @@
   h1,
   h2 {
     font-family: $inconsolata-font-family;
-    font-weight: 600;
     margin: 20px 0;
   }
 
   h1 {
     font-size: 48px;
+    font-weight: 600;
 
     &::after {
       animation: blink 1s steps(1, end) infinite;
