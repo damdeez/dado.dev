@@ -156,11 +156,10 @@ table {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    font-weight: 600;
     margin: 20px 0;
 
     a {
-      color: $color3;
+      color: $color4;
       text-decoration: none;
       width: 120px;
 
@@ -169,7 +168,7 @@ table {
       }
 
       &:hover {
-        color: $color4;
+        color: $color3;
         cursor: pointer;
       }
     }
