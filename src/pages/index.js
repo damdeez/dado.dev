@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import HelmetMeta from '../components/Header/HelmetMeta';
+import HelmetMeta from '../components/Meta/HelmetMeta';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import './global.scss';
