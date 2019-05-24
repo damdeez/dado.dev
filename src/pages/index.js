@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 
 import HelmetMeta from '../components/Header/HelmetMeta';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import './global.scss';
-import favicon from '../files/favicon.ico';
 
 const Main = () => (
   <main className="main-page-content">
@@ -17,7 +17,7 @@ const Main = () => (
       <a href="https://www.linkedin.com/in/damirharambasic/">LinkedIn</a>
       <a href="mailto:damir.hara@gmail.com">Contact Me</a>
     </section>
-    <footer>{' '}</footer>
+    <Footer />
   </main>
 );
 
