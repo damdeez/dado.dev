@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React, { useState } from 'react';
 
-import HelmetMeta from '../components/Header/HelmetMeta';
+import HelmetMeta from '../components/Meta/HelmetMeta';
 
 import './resume.scss';
 import damirJpg from '../files/damir.jpg';
