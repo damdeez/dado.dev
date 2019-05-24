@@ -4,6 +4,7 @@ import './footer.scss';
 
 class Footer extends Component {
   state = {
+    loadingSpotifyData: true,
     spotifyData: null,
   }
 
@@ -16,6 +17,7 @@ class Footer extends Component {
           const spotifyData = data.recenttracks.track[0];
           this.setState({
             spotifyData,
+            loadingSpotifyData: false,
           });
         });
     }
@@ -24,22 +26,24 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        {this.state.spotifyData
-          && (
-            <div className="now-playing">
-              {this.state.spotifyData.image
-                && (
-                  <span className="album-cover">
-                    <img alt="album-cover" src={this.state.spotifyData.image.find(image => image.size === 'small')['#text']} />
-                  </span>
-                )
-              }
-              <span>#NowListening: </span>
-              {this.state.spotifyData.artist
-                && <span className="artist">{this.state.spotifyData.artist['#text']}</span>
-              } - <span className="song-name">{this.state.spotifyData.name}</span>
-            </div>
-          )}
+        {!this.state.loadingSpotifyData
+          ? (
+            this.state.spotifyData && (
+              <div className="now-playing">
+                {this.state.spotifyData.image
+                  && (
+                    <span className="album-cover">
+                      <img alt="album-cover" src={this.state.spotifyData.image.find(image => image.size === 'small')['#text']} />
+                    </span>
+                  )
+                }
+                <span>#NowListening: </span>
+                {this.state.spotifyData.artist
+                  && <span className="artist">{this.state.spotifyData.artist['#text']}</span>
+                } - <span className="song-name">{this.state.spotifyData.name}</span>
+              </div>
+            )
+          ) : <div className="now-playing">Loading Spotify Data...</div>}
       </footer>
     );
   }
