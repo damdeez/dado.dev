@@ -20,6 +20,10 @@ class Footer extends Component {
             loadingSpotifyData: false,
           });
         });
+    } else {
+      this.setState({
+        loadingSpotifyData: false,
+      });
     }
   }
 
