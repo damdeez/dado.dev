@@ -1,11 +1,12 @@
 .now-playing {
   align-items: center;
   display: flex;
+  height: 50px;
   margin: 10px 0;
 
   .album-cover img {
     border-radius: 50%;
-    margin-right: 5px;
+    margin-right: 10px;
     width: 40px;
   }
 
