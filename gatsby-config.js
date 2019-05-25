@@ -1,9 +1,9 @@
 /* eslint-disable indent */
 module.exports = {
   siteMetadata: {
-    title: 'Dado.dev',
-    siteUrl: 'http://www.dado.dev',
-    description: 'Dado is the best!',
+    title: 'damirthe.dev',
+    siteUrl: 'http://www.damirthe.dev',
+    description: 'Web Development by Damir.',
   },
   plugins: [
     {
@@ -17,6 +17,12 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-react-helmet',
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-44100425-2',
+      },
     },
   ],
 };
