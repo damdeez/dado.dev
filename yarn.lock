@@ -4834,7 +4834,7 @@ gatsby-plugin-eslint@^2.0.5:
 
 gatsby-plugin-google-analytics@^2.0.20:
   version "2.0.20"
-  resolved "https://mediciventures.jfrog.io/mediciventures/api/npm/tzero-npm-virtual/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.20.tgz#ee8f10228a072247686a33d180d978abc574327c"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.20.tgz#ee8f10228a072247686a33d180d978abc574327c"
   integrity sha1-7o8QIooHIkdoajPRgNl4q8V0Mnw=
   dependencies:
     "@babel/runtime" "^7.0.0"
