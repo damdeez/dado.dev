@@ -16,7 +16,6 @@ class Footer extends Component {
           const spotifyData = data.recenttracks.track[0];
           this.setState({
             spotifyData,
-            loadingSpotifyData: false,
           });
         });
     }
