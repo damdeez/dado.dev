@@ -69,6 +69,15 @@
       padding: 0 0 5px;
     }
 
+    .skills-container {
+      display: flex;
+      flex-flow: wrap; 
+
+      .skills-title {
+        flex: 1 0 100%;
+      }
+    }
+
     .skills-wrapper,
     .job-wrapper {
       margin: 25px 0;
@@ -137,6 +146,10 @@
           line-height: 15px;
         }
       }
+    }
+
+    .skills-wrapper {
+      flex: 1 0 50%;
     }
   }
   
