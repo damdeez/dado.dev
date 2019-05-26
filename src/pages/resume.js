@@ -8,8 +8,8 @@ import damirJpg from '../files/damir.jpg';
 import resumePdf from '../files/DamirResume2019.pdf';
 
 const Resume = () => {
-  const [cssSkillsSectionOpen, toggleCssSkills] = useState(false);
-  const [jsSkillsSectionOpen, toggleJsSkills] = useState(false);
+  const [cssSkillsSectionOpen, toggleCssSkills] = useState(true);
+  const [jsSkillsSectionOpen, toggleJsSkills] = useState(true);
   const toggleCss = () => toggleCssSkills(!cssSkillsSectionOpen);
   const toggleJs = () => toggleJsSkills(!jsSkillsSectionOpen);
 
