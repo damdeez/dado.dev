@@ -33,7 +33,7 @@ class Footer extends Component {
                   <img alt="album-cover" src={this.state.spotifyData.image.find(image => image.size === 'small')['#text']} />
                 </span>
               )}
-              <span>#NowListening: </span>
+              <span className="now-listening">#NowListening: </span>
               {this.state.spotifyData.artist
                 && <span className="artist">{this.state.spotifyData.artist['#text']}</span>
               }
