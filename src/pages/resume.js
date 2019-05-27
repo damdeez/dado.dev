@@ -116,7 +116,7 @@ const Resume = () => {
             <h5>March 2013 - Present</h5>
             <li>http://www.damirhara.com</li>
             <li>- Helping companies/clients build websites and web apps from scratch or by jumping in the middle of the project. I&apos;ve worked on everything from simple one-page static websites to full web apps built in AngularJS.</li>
-            <li><strong>Clients Include:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
+            <li><strong>Clients worked with:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
           </ul>
 
           <ul className="job-wrapper">
