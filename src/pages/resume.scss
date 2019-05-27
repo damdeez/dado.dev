@@ -59,14 +59,23 @@
   }
   
   main {
-    padding-top: 10px;
-
     h3 {
       border-bottom: 1px solid $color1;
       display: inline-block;
       font-weight: 600;
       margin: 5px 0;
       padding: 0 0 5px;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-flow: wrap;
+      margin: 25px 0;
+
+      .skills-title {
+        flex: 1 0 100%;
+        margin-bottom: 20px;
+      }
     }
 
     .skills-wrapper,
@@ -136,6 +145,15 @@
         li {
           line-height: 15px;
         }
+      }
+    }
+
+    .skills-wrapper {
+      flex: 1 0 50%;
+      margin: 0;
+
+      @media screen and (max-width: $mobile) {
+        flex: 1 0 100%;
       }
     }
   }
