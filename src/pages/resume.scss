@@ -1,11 +1,17 @@
 @import '../styles/variables.scss';
 
-#resume-container {
+#resume {
+  background-color: $white;
   color: $color1;
   font-family: 'Inconsolata', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin: 20px auto;
-  max-width: 1000px;
-  width: 70%;
+  width: 100%;
+
+  .resume-container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px 0;
+    width: 70%;
+  }
 
   header {
     #resume-img {
