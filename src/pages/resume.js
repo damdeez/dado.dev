@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 
 import HelmetMeta from '../components/Meta/HelmetMeta';
-
 import './resume.scss';
 import damirJpg from '../files/damir.jpg';
 import resumePdf from '../files/DamirResume2019.pdf';
@@ -16,7 +15,7 @@ const Resume = () => {
   return (
     <section id="resume">
       <section className="resume-container">
-        <HelmetMeta pageTitle="Damir Resume" />
+        <HelmetMeta pageTitle="Resume" />
         <header>
           <img src={damirJpg} id="resume-img" alt="Damir" />
           <h1>Damir Harambasic
@@ -78,7 +77,6 @@ const Resume = () => {
               <li>- Communication &amp; Liaison</li>
             </ul>
           </section>
-
           <section className="experience-container">
             <h3>EXPERIENCE</h3>
             <ul className="job-wrapper">
