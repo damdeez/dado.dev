@@ -15,7 +15,7 @@ const Resume = () => {
   return (
     <section id="resume">
       <section className="resume-container">
-        <HelmetMeta pageTitle="Resume" />
+        <HelmetMeta pageTitle="Resume | Web Development by Damir" />
         <header>
           <img src={damirJpg} id="resume-img" alt="Damir" />
           <h1>Damir Harambasic
