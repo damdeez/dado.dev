@@ -195,19 +195,19 @@
 }
 
 @media screen and (max-width: 970px) {
-  #resume-container {
+  #resume .resume-container {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 720px) {
-  #resume-container {
+  #resume .resume-container {
     width: 85%;
   }
 }
 
 @media screen and (max-width: $mobile) {
-  #resume-container {
+  #resume .resume-container {
     width: 90%;
 
     header h1 {
