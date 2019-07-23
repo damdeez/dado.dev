@@ -7,6 +7,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-transformer-sharp',
+    },
+    {
+      resolve: 'gatsby-plugin-sharp',
+    },
+    {
       resolve: 'gatsby-plugin-eslint',
     },
     {
