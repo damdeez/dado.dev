@@ -13,7 +13,7 @@ class Footer extends Component {
         method: 'GET',
       }).then(response => response.json())
         .then((data) => {
-          const spotifyData = data.recenttracks.track[0];
+          const spotifyData = data.recenttracks && data.recenttracks.track[0];
           this.setState({
             spotifyData,
           });
@@ -37,7 +37,7 @@ class Footer extends Component {
               {this.state.spotifyData.artist
                 && <span className="artist">{this.state.spotifyData.artist['#text']}</span>
               }
-              {this.state.spotifyData && <span className="song-name"> - {this.state.spotifyData.name}</span>}
+              {this.state.spotifyData.name && <span className="song-name"> - {this.state.spotifyData.name}</span>}
             </Fragment>
           )}
         </div>
