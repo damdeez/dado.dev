@@ -11,9 +11,11 @@
 }
 
 .header {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  @media screen and (max-width: $mobile) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
   
   .damir-img {
     border: 5px solid $color1;
