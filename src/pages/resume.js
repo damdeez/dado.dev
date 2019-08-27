@@ -20,7 +20,7 @@ const Resume = () => {
           <img src={damirJpg} id="resume-img" alt="Damir" />
           <h1>Damir Harambasic
             <span className="email-link"><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
-            <span className="tel-link"><a href="tel:1-801-865-4342">(801) 865-4342</a></span>
+            <span className="tel-link"><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
           </h1>
           <div className="resume-summary">
             <h3>SUMMARY</h3>
