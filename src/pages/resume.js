@@ -80,7 +80,7 @@ const Resume = () => {
           <section className="experience-container">
             <h3>EXPERIENCE</h3>
             <ul className="job-wrapper">
-              <h4>Frontend Developer <span className="span-light">@</span> tZERO</h4>
+              <h4>Sr. Frontend Developer <span className="span-light">@</span> tZERO</h4>
               <h5>September 2018 - Present</h5>
               <li>- Building the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
             </ul>
