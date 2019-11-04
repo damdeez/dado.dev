@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 20px 0;
+
+  a {
+    color: $color4;
+    margin: 2px 0;
+    text-decoration: none;
+    width: 120px;
+
+    &:before {
+      content: '+ '
+    }
+
+    &:hover {
+      color: $color1;
+      cursor: pointer;
+    }
+  }
+}
