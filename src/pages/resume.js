@@ -125,13 +125,12 @@ const Resume = () => {
             <ul className="job-wrapper">
               <h4>Integration Specialist/eCommerce Coordinator <span className="span-light">@</span> Experticity</h4>
               <h5>December 2012 - October 2014</h5>
-              <li>- Worked with clients, Project Managers and Account Coordinators to handle builds, updates, integration, and technical support on 3point5.com and Promotive.com stores by creating pipe delimited files using Excel.
+              <li>- Worked with clients, Project Managers and Account Coordinators to handle builds, updates, integration, and technical support on 3point5.com and Promotive.com stores.
               </li>
               <li>- Handled multiple technical e-commerce projects with clients alongside PM&apos;s and AM&apos;s through the staging phase into production.
               </li>
               <li>- Communicate with client from the kick-off call through the completion of project, if needed.</li>
               <li>- Managed workflow through JIRA, created tickets as needed and assigned to appropriate individuals.</li>
-              <li>- Worked with Software Engineers to develop more efficient tools. Tested and implemented them into workflow.</li>
               <li><strong>Clients include:</strong> Zeal Optics, yurbuds, Stan&apos;s No Tubes, Carhartt, ArmourBite, One Industries, etc.</li>
             </ul>
           </section>
