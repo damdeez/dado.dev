@@ -117,8 +117,8 @@ const Resume = () => {
             <ul className="job-wrapper">
               <h4>Freelance Developer and Designer <span className="span-light">@</span> Damir Hara Design</h4>
               <h5>March 2013 - Present</h5>
-              <li>http://www.damirhara.com</li>
-              <li>- Helped companies/clients build websites and web apps from scratch or by jumping in the middle of the project. I&apos;ve worked on everything from simple one-page static websites to full web apps.</li>
+              <li><a className="job-link" href="https://www.damirthe.dev">https://www.damirthe.dev</a></li>
+              <li>- Help companies/clients build websites and web apps from scratch or by jumping in the middle of the project. I&apos;ve worked on everything from simple one-page static websites to full web apps.</li>
               <li><strong>Clients worked with:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
             </ul>
 

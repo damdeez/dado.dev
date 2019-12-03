@@ -109,6 +109,16 @@
         }
       }
 
+      .job-link {
+        color: $color1;
+        text-decoration: none;
+
+        &:hover {
+          color: $color2;
+          text-decoration: underline;
+        }
+      }
+
       .tooltip-target-css,
       .tooltip-target-javascript {
         -webkit-appearance: none;
