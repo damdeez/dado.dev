@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import HelmetMeta from '../components/Meta/HelmetMeta';
-import './resume.scss';
+import styles from './resume.module.scss';
 import damirJpg from '../files/damir.jpg';
 import resumePdf from '../files/DamirResume2019.pdf';
 
@@ -13,33 +13,37 @@ const Resume = () => {
   const toggleJs = () => toggleJsSkills(!jsSkillsSectionOpen);
 
   return (
-    <section id="resume">
-      <section className="resume-container">
+    <section className={styles.resume}>
+      <section className={styles.resumeContainer}>
         <HelmetMeta pageTitle="Resume | Web Development by Damir" />
-        <header>
-          <img src={damirJpg} id="resume-img" alt="Damir" />
-          <h1>Damir Harambasic
-            <span className="email-link"><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
-            <span className="tel-link"><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
+        <header className={styles.header}>
+          <img src={damirJpg} className={styles.resumeImg} alt="Damir" />
+          <h1 className={styles.headline}>Damir Harambasic
+            <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
+            <span className={styles.telLink}><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
           </h1>
-          <div className="resume-summary">
-            <h3>SUMMARY</h3>
-            <p className="summary-paragraph">
+          <div className={styles.resumeSummary}>
+            <h3 className={styles.subHeadline}>SUMMARY</h3>
+            <p className={styles.summaryParagraph}>
             I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
             </p>
           </div>
         </header>
-        <main>
-          <section className="skills-container">
-            <div className="skills-title">
-              <h3>SKILLS</h3>
+        <main className={styles.mainSection}>
+          <section className={styles.skillsContainer}>
+            <div className={styles.skillsTitle}>
+              <h3 className={styles.subHeadline}>SKILLS</h3>
             </div>
-            <ul className="skills-wrapper">
+            <ul className={styles.skillsWrapper}>
               <li>- Semantic HTML</li>
               <li>
-                <button type="button" className="tooltip-target-css" onClick={() => toggleCss()}>
-                  <span className="title">{cssSkillsSectionOpen ? '- CSS' : '+ CSS *'}</span>
-                  <div className={`tooltip ${cssSkillsSectionOpen}`}>
+                <button
+                  type="button"
+                  className={styles.tooltipTargetCss}
+                  onClick={toggleCss}
+                >
+                  <span className={styles.title}>{cssSkillsSectionOpen ? '- CSS' : '+ CSS *'}</span>
+                  <div className={`${styles.tooltip} ${cssSkillsSectionOpen ? styles.open : styles.closed}`}>
                     <ul>
                       <li>PostCSS</li>
                       <li>LESS</li>
@@ -50,9 +54,13 @@ const Resume = () => {
                 </button>
               </li>
               <li>
-                <button type="button" className="tooltip-target-javascript" onClick={() => toggleJs()}>
-                  <span className="title">{jsSkillsSectionOpen ? '- JavaScript' : '+ JavaScript *'}</span>
-                  <div className={`tooltip ${jsSkillsSectionOpen}`}>
+                <button
+                  type="button"
+                  className={styles.tooltipTargetJavascript}
+                  onClick={toggleJs}
+                >
+                  <span className={styles.title}>{jsSkillsSectionOpen ? '- JavaScript' : '+ JavaScript *'}</span>
+                  <div className={`${styles.tooltip} ${jsSkillsSectionOpen ? styles.open : styles.closed}`}>
                     <ul>
                       <li>React</li>
                       <li>Redux</li>
@@ -68,7 +76,7 @@ const Resume = () => {
                 </button>
               </li>
             </ul>
-            <ul className="skills-wrapper">
+            <ul className={styles.skillsWrapper}>
               <li>- Git &amp; CLI chops</li>
               <li>- Troubleshooting </li>
               <li>- Responsive Web Design</li>
@@ -77,22 +85,22 @@ const Resume = () => {
               <li>- Communication &amp; Liaison</li>
             </ul>
           </section>
-          <section className="experience-container">
-            <h3>EXPERIENCE</h3>
-            <ul className="job-wrapper">
-              <h4>Sr. Frontend Developer <span className="span-light">@</span> Overstock.com</h4>
+          <section className={styles.experienceContainer}>
+            <h3 className={styles.subHeadline}>EXPERIENCE</h3>
+            <ul className={styles.jobWrapper}>
+              <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2019 - Present</h5>
               <li>- Building the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
             </ul>
 
-            <ul className="job-wrapper">
-              <h4>Sr. Frontend Developer <span className="span-light">@</span> tZERO</h4>
+            <ul className={styles.jobWrapper}>
+              <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> tZERO</h4>
               <h5>September 2018 - October 2019</h5>
               <li>- Built the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
             </ul>
 
-            <ul className="job-wrapper">
-              <h4>Frontend Developer - Product Page Dev <span className="span-light">@</span> Overstock.com</h4>
+            <ul className={styles.jobWrapper}>
+              <h4>Frontend Developer - Product Page Dev <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2015 - September 2018</h5>
               <li>Product Page Dev Team:</li>
               <li>- Handled new feature implementation, A/B Tests, and bug squishing on product pages.</li>
@@ -104,8 +112,8 @@ const Resume = () => {
               <li><strong>Previous Teams:</strong> ShopEx Dev, Production Marketing Dev.</li>
             </ul>
 
-            <ul className="job-wrapper">
-              <h4>Front End Developer - Production <span className="span-light">@</span> Overstock.com</h4>
+            <ul className={styles.jobWrapper}>
+              <h4>Front End Developer - Production <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2014 - October 2015</h5>
               <li>Production Web Team:</li>
               <li>- Worked directly with Marketing, Product, and Back-end teams on various projects concerning the homepage of Overstock.com.
@@ -114,16 +122,16 @@ const Resume = () => {
               </li>
             </ul>
 
-            <ul className="job-wrapper">
-              <h4>Freelance Developer and Designer <span className="span-light">@</span> Damir Hara Design</h4>
+            <ul className={styles.jobWrapper}>
+              <h4>Freelance Developer and Designer <span className={styles.spanLight}>@</span> Damir Hara Design</h4>
               <h5>March 2013 - Present</h5>
-              <li><a className="job-link" href="https://www.damirthe.dev">https://www.damirthe.dev</a></li>
+              <li><a className={styles.jobLink} href="https://www.damirthe.dev">https://www.damirthe.dev</a></li>
               <li>- Help companies/clients build websites and web apps from scratch or by jumping in the middle of the project. I&apos;ve worked on everything from simple one-page static websites to full web apps.</li>
               <li><strong>Clients worked with:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
             </ul>
 
-            <ul className="job-wrapper">
-              <h4>Integration Specialist/eCommerce Coordinator <span className="span-light">@</span> Experticity</h4>
+            <ul className={styles.jobWrapper}>
+              <h4>Integration Specialist/eCommerce Coordinator <span className={styles.spanLight}>@</span> Experticity</h4>
               <h5>December 2012 - October 2014</h5>
               <li>- Worked with clients, Project Managers and Account Coordinators to handle builds, updates, integration, and technical support on 3point5.com and Promotive.com stores.
               </li>
@@ -134,19 +142,19 @@ const Resume = () => {
               <li><strong>Clients include:</strong> Zeal Optics, yurbuds, Stan&apos;s No Tubes, Carhartt, ArmourBite, One Industries, etc.</li>
             </ul>
           </section>
-          <section className="education-container">
-            <h3>EDUCATION</h3>
-            <ul className="job-wrapper">
+          <section className={styles.educationContainer}>
+            <h3 className={styles.subHeadline}>EDUCATION</h3>
+            <ul className={styles.jobWrapper}>
               <h4>University of Utah</h4>
               <h5>Class of 2014</h5>
               <li>BS, Mass Communication</li>
             </ul>
           </section>
         </main>
-        <footer>
+        <footer className={styles.footer}>
           <section>
-            <div className="footer-button"><a href="mailto:damir.hara@gmail.com">Get In Touch</a></div>
-            <div className="footer-button"><a href={resumePdf}>Download PDF</a></div>
+            <div className={styles.footerButton}><a href="mailto:damir.hara@gmail.com">Get In Touch</a></div>
+            <div className={styles.footerButton}><a href={resumePdf}>Download PDF</a></div>
           </section>
         </footer>
       </section>

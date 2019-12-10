@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react';
 
-import './footer.scss';
+import styles from './footer.module.scss';
 
 const Footer = () => {
   const [spotifyData, setSpotifyData] = useState(null);
@@ -19,19 +19,19 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="now-playing">
+      <div className={styles.nowPlaying}>
         {spotifyData && (
           <Fragment>
             {spotifyData.image
             && (
-              <span className="album-cover">
+              <span className={styles.albumCover}>
                 <img alt="album-cover" src={spotifyData.image.find((image) => image.size === 'medium')['#text']} />
               </span>
             )}
-            <span className="now-listening">#NowListening: </span>
+            <span className={styles.nowListening}>#NowListening: </span>
             {spotifyData.artist
-              && <span className="artist">{spotifyData.artist['#text']}</span>}
-            {spotifyData.name && <span className="song-name"> - {spotifyData.name}</span>}
+              && <span className={styles.artist}>{spotifyData.artist['#text']}</span>}
+            {spotifyData.name && <span className={styles.songName}> - {spotifyData.name}</span>}
           </Fragment>
         )}
       </div>
