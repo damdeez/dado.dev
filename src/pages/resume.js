@@ -67,7 +67,7 @@ const Resume = () => {
                       <li>ES6/ES7</li>
                       <li>JSON</li>
                       <li>RESTful API&apos;s</li>
-                      <li>GruntJS &amp; Webpack</li>
+                      <li>Webpack</li>
                       <li>Node.js</li>
                       <li>Express</li>
                       <li>GatsbyJS</li>
@@ -152,10 +152,12 @@ const Resume = () => {
           </section>
         </main>
         <footer className={styles.footer}>
-          <section>
-            <div className={styles.footerButton}><a href="mailto:damir.hara@gmail.com">Get In Touch</a></div>
-            <div className={styles.footerButton}><a href={resumePdf}>Download PDF</a></div>
-          </section>
+          <div className={styles.footerButton}>
+            <a href="mailto:damir.hara@gmail.com">Get In Touch</a>
+          </div>
+          <div className={styles.footerButton}>
+            <a href={resumePdf}>Download PDF</a>
+          </div>
         </footer>
       </section>
     </section>
