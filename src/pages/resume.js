@@ -25,7 +25,7 @@ const Resume = () => {
           <div className={styles.resumeSummary}>
             <h3 className={styles.subHeadline}>SUMMARY</h3>
             <p className={styles.summaryParagraph}>
-            I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
+              I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
             </p>
           </div>
         </header>
