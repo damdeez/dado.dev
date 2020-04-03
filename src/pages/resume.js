@@ -106,6 +106,7 @@ const Resume = () => {
               <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> tZERO</h4>
               <h5>September 2018 - October 2019</h5>
               <li>- Built the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
+              <li>- Filled in for multiple temporary Dev Lead roles.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
