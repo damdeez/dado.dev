@@ -49,6 +49,7 @@ const Resume = () => {
                       <li>LESS</li>
                       <li>SASS</li>
                       <li>CSS Modules</li>
+                      <li>Styled Components</li>
                     </ul>
                   </div>
                 </button>
@@ -64,6 +65,7 @@ const Resume = () => {
                     <ul>
                       <li>React</li>
                       <li>Redux</li>
+                      <li>TypeScript</li>
                       <li>ES6/ES7</li>
                       <li>JSON</li>
                       <li>RESTful API&apos;s</li>
@@ -114,7 +116,7 @@ const Resume = () => {
               <li>- Was involved in the design process of product with UX and Product teammates.</li>
               <li>- Built tools for our Front-end workflow. Such as implementing ES6 support and ReactJS into our repo.</li>
               <li>- Created reusable React components and NPM modules that are used by teams across Overstock.com.</li>
-              <li>- Promoted to Senior Frontend Developer.</li>
+              <li>- During this time I was promoted to Senior Frontend Developer.</li>
               <li><strong>Previous Teams:</strong> ShopEx Dev, Production Marketing Dev.</li>
             </ul>
 
