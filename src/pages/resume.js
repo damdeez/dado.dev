@@ -92,13 +92,14 @@ const Resume = () => {
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Money</h4>
               <h5>January 2020 - Present</h5>
-              <li>- Building the first digital banking platform using TypeScript, React, and GraphQL.</li>
+              <li>- Building the first digital banking platform using TypeScript, React, Apollo, and GraphQL.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2019 - December 2019</h5>
-              <li>- Building the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
+              <li>- Built the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
+              <li>- Rebuilt the Webpack Server-side Rendering portion of our NodeJS powered app before seeking a new oppertunity.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
