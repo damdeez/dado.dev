@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import HelmetMeta from '../components/Meta/HelmetMeta';
 import styles from './resume.module.scss';
 import damirJpg from '../files/damir.jpg';
-import resumePdf from '../files/DamirResume2019.pdf';
+import resumePdf from '../files/DamirResume2020.pdf';
 
 const Resume = () => {
   const [cssSkillsSectionOpen, toggleCssSkills] = useState(true);
@@ -25,7 +25,7 @@ const Resume = () => {
           <div className={styles.resumeSummary}>
             <h3 className={styles.subHeadline}>SUMMARY</h3>
             <p className={styles.summaryParagraph}>
-            I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
+              I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
             </p>
           </div>
         </header>
@@ -49,6 +49,7 @@ const Resume = () => {
                       <li>LESS</li>
                       <li>SASS</li>
                       <li>CSS Modules</li>
+                      <li>Styled Components</li>
                     </ul>
                   </div>
                 </button>
@@ -64,6 +65,7 @@ const Resume = () => {
                     <ul>
                       <li>React</li>
                       <li>Redux</li>
+                      <li>TypeScript</li>
                       <li>ES6/ES7</li>
                       <li>JSON</li>
                       <li>RESTful API&apos;s</li>
@@ -88,15 +90,23 @@ const Resume = () => {
           <section className={styles.experienceContainer}>
             <h3 className={styles.subHeadline}>EXPERIENCE</h3>
             <ul className={styles.jobWrapper}>
+              <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Money</h4>
+              <h5>January 2020 - Present</h5>
+              <li>- Building the first digital banking platform using TypeScript, React, Apollo, and GraphQL.</li>
+            </ul>
+
+            <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
-              <h5>October 2019 - Present</h5>
-              <li>- Building the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
+              <h5>October 2019 - December 2019</h5>
+              <li>- Built the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
+              <li>- Rebuilt the Webpack Server-side Rendering portion of our NodeJS powered app before seeking a new oppertunity.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> tZERO</h4>
               <h5>September 2018 - October 2019</h5>
               <li>- Built the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
+              <li>- Filled in for multiple temporary Dev Lead roles.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
@@ -108,7 +118,7 @@ const Resume = () => {
               <li>- Was involved in the design process of product with UX and Product teammates.</li>
               <li>- Built tools for our Front-end workflow. Such as implementing ES6 support and ReactJS into our repo.</li>
               <li>- Created reusable React components and NPM modules that are used by teams across Overstock.com.</li>
-              <li>- Promoted to Senior Frontend Developer.</li>
+              <li>- During this time I was promoted to Senior Frontend Developer.</li>
               <li><strong>Previous Teams:</strong> ShopEx Dev, Production Marketing Dev.</li>
             </ul>
 
@@ -130,17 +140,6 @@ const Resume = () => {
               <li><strong>Clients worked with:</strong> Infowrap.com, Cottonwood Electric, TheChapelMotorcycleShop.com.</li>
             </ul>
 
-            <ul className={styles.jobWrapper}>
-              <h4>Integration Specialist/eCommerce Coordinator <span className={styles.spanLight}>@</span> Experticity</h4>
-              <h5>December 2012 - October 2014</h5>
-              <li>- Worked with clients, Project Managers and Account Coordinators to handle builds, updates, integration, and technical support on 3point5.com and Promotive.com stores.
-              </li>
-              <li>- Handled multiple technical e-commerce projects with clients alongside PM&apos;s and AM&apos;s through the staging phase into production.
-              </li>
-              <li>- Communicate with client from the kick-off call through the completion of project, if needed.</li>
-              <li>- Managed workflow through JIRA, created tickets as needed and assigned to appropriate individuals.</li>
-              <li><strong>Clients include:</strong> Zeal Optics, yurbuds, Stan&apos;s No Tubes, Carhartt, ArmourBite, One Industries, etc.</li>
-            </ul>
           </section>
           <section className={styles.educationContainer}>
             <h3 className={styles.subHeadline}>EDUCATION</h3>

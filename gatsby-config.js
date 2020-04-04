@@ -2,8 +2,9 @@
 module.exports = {
   siteMetadata: {
     title: 'damirthe.dev',
-    siteUrl: 'http://www.damirthe.dev',
+    url: 'http://www.damirthe.dev',
     description: 'Web Development by Damir.',
+    twitterUsername: '@damdeez',
   },
   plugins: [
     {
