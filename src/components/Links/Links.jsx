@@ -9,7 +9,7 @@ const Links = () => (
     <a href="https://github.com/damdeez">Github</a>
     <a href="https://twitter.com/damdeez">Twitter</a>
     <a href="https://www.linkedin.com/in/damirharambasic">LinkedIn</a>
-    <a href="mailto:damir.hara@gmail.com">Contact Me</a>
+    <a href="mailto:damir.hara@gmail.com">Email Me</a>
   </section>
 );
 
