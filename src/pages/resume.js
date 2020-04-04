@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import HelmetMeta from '../components/Meta/HelmetMeta';
 import styles from './resume.module.scss';
 import damirJpg from '../files/damir.jpg';
-import resumePdf from '../files/DamirResume2019.pdf';
+import resumePdf from '../files/DamirResume2020.pdf';
 
 const Resume = () => {
   const [cssSkillsSectionOpen, toggleCssSkills] = useState(true);
