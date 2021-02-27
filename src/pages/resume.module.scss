@@ -40,6 +40,12 @@
   }
 }
 
+.hidden-text {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
 .email-link,
 .tel-link {
   display: block;

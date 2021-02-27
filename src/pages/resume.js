@@ -19,7 +19,7 @@ const Resume = () => {
         <header className={styles.header}>
           <img src={damirJpg} className={styles.resumeImg} alt="Damir" />
           <h1 className={styles.headline}>
-            Damir Harambasic
+            Damir Harambasic <span className={styles.hiddenText}>Resume | Senior Frontend Engineer</span>
             <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
             <span className={styles.telLink}><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
           </h1>
@@ -68,8 +68,6 @@ const Resume = () => {
                       <li>Redux</li>
                       <li>TypeScript</li>
                       <li>GraphQL</li>
-                      <li>ES6/ES7</li>
-                      <li>JSON</li>
                       <li>RESTful API&apos;s</li>
                       <li>Webpack</li>
                       <li>Node.js</li>
