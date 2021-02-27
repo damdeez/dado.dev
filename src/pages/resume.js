@@ -15,10 +15,11 @@ const Resume = () => {
   return (
     <section className={styles.resume}>
       <section className={styles.resumeContainer}>
-        <HelmetMeta pageTitle="Resume | Web Development by Damir" />
+        <HelmetMeta pageTitle="Resume | Web Development by Damir, Senior Software Engineer, Senior Web Developer, Senior Frontend Developer, Senior Frontend Engineer" />
         <header className={styles.header}>
           <img src={damirJpg} className={styles.resumeImg} alt="Damir" />
-          <h1 className={styles.headline}>Damir Harambasic
+          <h1 className={styles.headline}>
+            Damir Harambasic
             <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
             <span className={styles.telLink}><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
           </h1>
@@ -66,6 +67,7 @@ const Resume = () => {
                       <li>React</li>
                       <li>Redux</li>
                       <li>TypeScript</li>
+                      <li>GraphQL</li>
                       <li>ES6/ES7</li>
                       <li>JSON</li>
                       <li>RESTful API&apos;s</li>
