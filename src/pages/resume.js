@@ -90,7 +90,7 @@ const Resume = () => {
           <section className={styles.experienceContainer}>
             <h3 className={styles.subHeadline}>EXPERIENCE</h3>
             <ul className={styles.jobWrapper}>
-              <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Money</h4>
+              <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Bank</h4>
               <h5>January 2020 - Present</h5>
               <li>- Building the first digital banking platform using TypeScript, React, Apollo, and GraphQL.</li>
             </ul>
