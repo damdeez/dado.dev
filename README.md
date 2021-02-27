@@ -7,4 +7,4 @@ Domains: dado.dev, damirthe.dev, damirhara.dev, damir.fun
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a27fe502-5e1d-4c18-9fc4-f2f3b834c9d1/deploy-status)](https://app.netlify.com/sites/dadodev/deploys)
 
 ## Todo
-- Add TypeScript support
+- NOTHING! It's perfect 💎 

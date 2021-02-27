@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import HelmetMeta from '../components/Meta/HelmetMeta';
 import styles from './resume.module.scss';
 import damirJpg from '../files/damir.jpg';
-import resumePdf from '../files/DamirResume2020.pdf';
+import resumePdf from '../files/DamirResume2021.pdf';
 
 const Resume = () => {
   const [cssSkillsSectionOpen, toggleCssSkills] = useState(true);
@@ -15,10 +15,11 @@ const Resume = () => {
   return (
     <section className={styles.resume}>
       <section className={styles.resumeContainer}>
-        <HelmetMeta pageTitle="Resume | Web Development by Damir" />
+        <HelmetMeta pageTitle="Resume | Web Development by Damir, Senior Software Engineer, Senior Web Developer, Senior Frontend Developer, Senior Frontend Engineer" />
         <header className={styles.header}>
           <img src={damirJpg} className={styles.resumeImg} alt="Damir" />
-          <h1 className={styles.headline}>Damir Harambasic
+          <h1 className={styles.headline}>
+            Damir Harambasic <span className={styles.hiddenText}>Resume | Senior Frontend Engineer</span>
             <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
             <span className={styles.telLink}><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
           </h1>
@@ -66,8 +67,7 @@ const Resume = () => {
                       <li>React</li>
                       <li>Redux</li>
                       <li>TypeScript</li>
-                      <li>ES6/ES7</li>
-                      <li>JSON</li>
+                      <li>GraphQL</li>
                       <li>RESTful API&apos;s</li>
                       <li>Webpack</li>
                       <li>Node.js</li>
@@ -90,7 +90,7 @@ const Resume = () => {
           <section className={styles.experienceContainer}>
             <h3 className={styles.subHeadline}>EXPERIENCE</h3>
             <ul className={styles.jobWrapper}>
-              <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Money</h4>
+              <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Bank</h4>
               <h5>January 2020 - Present</h5>
               <li>- Building the first digital banking platform using TypeScript, React, Apollo, and GraphQL.</li>
             </ul>
