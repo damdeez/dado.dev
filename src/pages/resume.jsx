@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import HelmetMeta from '../components/Meta/HelmetMeta';
 import styles from './resume.module.scss';
 import damirJpg from '../files/damir.jpg';
-import resumePdf from '../files/DamirResume2021.pdf';
+import resumePdf from '../files/DamirResume2022.pdf';
 
 const Resume = () => {
   const [cssSkillsSectionOpen, toggleCssSkills] = useState(true);
@@ -92,7 +92,9 @@ const Resume = () => {
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Bank</h4>
               <h5>January 2020 - Present</h5>
-              <li>- Building the first digital banking platform using TypeScript, React, Apollo, and GraphQL.</li>
+              <li>- Helped develop and launch bank.varomoney.com</li>
+              <li>- Participate in a mentorship program in collaboration with Hackbright Academy</li>
+              <li>- Work on implementing the UX using TypeScript, React, Redux and GraphQL/Apollo</li>
             </ul>
 
             <ul className={styles.jobWrapper}>

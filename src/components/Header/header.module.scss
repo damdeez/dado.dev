@@ -31,7 +31,7 @@
     font-weight: 600;
 
     @media screen and (max-width: $mobile) {
-      font-size: 30px;
+      font-size: 24px;
       text-align: left;
     }
 
@@ -45,8 +45,9 @@
     font-size: 34px;
 
     @media screen and (max-width: $mobile) {
-      font-size: 20px;
+      font-size: 18px;
       text-align: left;
+      margin-left: 24px;
     }
   }
 }
