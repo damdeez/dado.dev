@@ -14,20 +14,21 @@
   a {
     color: $color5;
     margin: 5px 0;
+    text-align: left;
     text-decoration: none;
     width: 120px;
 
-    @media screen and (max-width: $mobile) {
-      text-align: left;
-    }
-
     &:before {
-      content: '+ '
+      content: '+ ';
     }
 
     &:hover {
       color: $color1;
       cursor: pointer;
+      
+      &:before {
+        content: '> ';
+      }
     }
   }
 }
