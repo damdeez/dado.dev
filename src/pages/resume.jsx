@@ -105,14 +105,14 @@ const Resume = () => {
             </ul>
 
             <ul className={styles.jobWrapper}>
-              <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> tZERO</h4>
+              <h4>Sr. Frontend/Full-Stack Developer <span className={styles.spanLight}>@</span> tZERO</h4>
               <h5>September 2018 - October 2019</h5>
               <li>- Built the next generation Blockchain-based UI using React, Redux, Webpack, Express, and Node.js.</li>
               <li>- Filled in for multiple temporary Dev Lead roles.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
-              <h4>Frontend Developer - Product Page Dev <span className={styles.spanLight}>@</span> Overstock.com</h4>
+              <h4>Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2015 - September 2018</h5>
               <li>Product Page Dev Team:</li>
               <li>- Handled new feature implementation, A/B Tests, and bug squishing on product pages.</li>
@@ -125,7 +125,7 @@ const Resume = () => {
             </ul>
 
             <ul className={styles.jobWrapper}>
-              <h4>Front End Developer - Production <span className={styles.spanLight}>@</span> Overstock.com</h4>
+              <h4>Front End Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2014 - October 2015</h5>
               <li>Production Web Team:</li>
               <li>- Worked directly with Marketing, Product, and Back-end teams on various projects concerning the homepage of Overstock.com.
