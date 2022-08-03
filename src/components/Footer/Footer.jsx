@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import styles from './footer.module.scss';
 
@@ -13,6 +13,9 @@ const Footer = () => {
         .then((data) => {
           const spotifyDataRecent = data.recenttracks && data.recenttracks.track[0];
           setSpotifyData(spotifyDataRecent);
+        }).catch((error) => {
+          // eslint-disable-next-line no-console
+          console.error(error);
         });
     }
   }, []);
@@ -21,18 +24,18 @@ const Footer = () => {
     <footer className="footer">
       <div className={styles.nowPlaying}>
         {spotifyData && (
-          <Fragment>
-            {spotifyData.image
-            && (
-              <span className={styles.albumCover}>
-                <img alt="album-cover" src={spotifyData.image.find((image) => image.size === 'medium')['#text']} />
-              </span>
-            )}
+          <>
             <span className={styles.nowListening}>#NowListening: </span>
+            {spotifyData.image
+              && (
+                <span className={styles.albumCover}>
+                  <img alt="album-cover" src={spotifyData.image.find((image) => image.size === 'medium')['#text']} />
+                </span>
+              )}
             {spotifyData.artist
               && <span className={styles.artist}>{spotifyData.artist['#text']}</span>}
             {spotifyData.name && <span className={styles.songName}> - {spotifyData.name}</span>}
-          </Fragment>
+          </>
         )}
       </div>
     </footer>
