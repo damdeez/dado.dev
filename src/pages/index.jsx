@@ -10,7 +10,7 @@ const Main = () => (
   <main className="main-page-content">
     <HelmetMeta pageTitle="Web Development by Damir" />
     <Header />
-    <Links />
+    {/* <Links /> */}
     <Footer />
   </main>
 );
