@@ -5,8 +5,8 @@
   display: flex;
   flex-wrap: wrap;
   height: 50px;
-  margin: 10px 0;
-  justify-content: center;
+  margin: 20px 0;
+  justify-content: flex-start;
 
   @media screen and (max-width: $mobile) {
     height: auto;
@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: $mobile) {
+  .footer {
+    margin-left: 24px;
+  }
+
   .album-cover {
     flex: 1 0 100%;
   }

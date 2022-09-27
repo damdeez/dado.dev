@@ -21,7 +21,7 @@ const Resume = () => {
           <h1 className={styles.headline}>
             Damir Harambasic <span className={styles.hiddenText}>Resume | Senior Frontend Engineer</span>
             <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
-            <span className={styles.telLink}><a href="tel:1-801-865-4342">1(801)865-4342</a></span>
+            <span className={styles.link}><a href="https://www.linkedin.com/in/damirharambasic">LinkedIn</a></span>
           </h1>
           <div className={styles.resumeSummary}>
             <h3 className={styles.subHeadline}>SUMMARY</h3>
@@ -92,9 +92,11 @@ const Resume = () => {
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Bank</h4>
               <h5>January 2020 - Present</h5>
-              <li>- Helped develop and launch bank.varomoney.com</li>
-              <li>- Participate in a mentorship program in collaboration with Hackbright Academy</li>
+              <li>- Helped develop and launch the new bank.varomoney.com</li>
+              <li>- Participated in a mentorship program in collaboration with Hackbright Academy</li>
+              <li>- Part of a hiring commitee and helped mentor new Engineers</li>
               <li>- Work on implementing the UX using TypeScript, React, Redux and GraphQL/Apollo</li>
+              <li>- Been a part of a lot of different projects and teams including: client banking teams, internal tools and most recently working with on our Design Systems team</li>
             </ul>
 
             <ul className={styles.jobWrapper}>

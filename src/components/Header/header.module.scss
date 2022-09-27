@@ -11,10 +11,15 @@
 }
 
 .header {
+  align-items: center;
+  display: flex;
+  max-width: 880px;
+  
   @media screen and (max-width: $mobile) {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 24px;
   }
 }
 
@@ -23,7 +28,7 @@
   h2 {
     color: $color1;
     font-family: $inconsolata-font-family;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
   }
 
   h1 {
@@ -50,11 +55,38 @@
       margin-left: 24px;
     }
   }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+
+    @media screen and (max-width: $mobile) {
+      font-size: 18px;
+      text-align: left;
+      margin-left: 24px;
+    }
+    
+    a {
+      color: $color5;
+      text-decoration: none;
+      width: 120px;
+  
+      &:hover {
+        color: $color1;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 .damir-img {
   border: 5px solid $color1;
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  margin: 0 24px 0 0;
+  width: 200px;
+
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 24px;
+  }
 }
