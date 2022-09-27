@@ -21,7 +21,7 @@ const Resume = () => {
           <h1 className={styles.headline}>
             Damir Harambasic <span className={styles.hiddenText}>Resume | Senior Frontend Engineer</span>
             <span className={styles.emailLink}><a href="mailto:damir.hara@gmail.com">damir.hara@gmail.com</a></span>
-            <span className={styles.telLink}><a href="https://www.linkedin.com/in/damirharambasic">LinkedIn</a></span>
+            <span className={styles.link}><a href="https://www.linkedin.com/in/damirharambasic">LinkedIn</a></span>
           </h1>
           <div className={styles.resumeSummary}>
             <h3 className={styles.subHeadline}>SUMMARY</h3>
