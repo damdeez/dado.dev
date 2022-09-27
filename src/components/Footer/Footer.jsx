@@ -21,7 +21,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="footer">
+    <footer className={styles.footer}>
       <div className={styles.nowPlaying}>
         {spotifyData && (
           <>

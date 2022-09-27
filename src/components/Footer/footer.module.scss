@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: $mobile) {
+  .footer {
+    margin-left: 24px;
+  }
+
   .album-cover {
     flex: 1 0 100%;
   }
