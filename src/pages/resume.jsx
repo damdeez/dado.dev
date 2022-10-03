@@ -26,7 +26,7 @@ const Resume = () => {
           <div className={styles.resumeSummary}>
             <h3 className={styles.subHeadline}>SUMMARY</h3>
             <p className={styles.summaryParagraph}>
-              I love many aspects of technology and the web. I consider myself to be a technologist (developer/engineer) with a keen eye for detail and design. I love making intuitive web-based client interactions that look great and function properly across many browsers and devices. I care about performance as much as I do about design, usability, and up-and-coming technologies. My code is always pixel-perfect.
+              My code is always pixel-perfect: As a technologist/developer/engineer with a keen eye for detail and design, I love making intuitive web-based client interactions that look as great as they function (no matter what browser or device). With site speed and user engagement as key factors in today&apos;s tech landscape, I prioritize performance alongside design, usability, and up-and-coming technologies.
             </p>
           </div>
         </header>
@@ -92,18 +92,18 @@ const Resume = () => {
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Engineer <span className={styles.spanLight}>@</span> Varo Bank</h4>
               <h5>January 2020 - Present</h5>
-              <li>- Helped develop and launch the new bank.varomoney.com</li>
-              <li>- Participated in a mentorship program in collaboration with Hackbright Academy</li>
-              <li>- Part of a hiring commitee and helped mentor new Engineers</li>
-              <li>- Work on implementing the UX using TypeScript, React, Redux and GraphQL/Apollo</li>
-              <li>- Been a part of a lot of different projects and teams including: client banking teams, internal tools and most recently working with on our Design Systems team</li>
+              <li>- Helped develop and launch the new bank.varomoney.com.</li>
+              <li>- Participated in a mentorship program in collaboration with Hackbright Academy.</li>
+              <li>- Part of a hiring commitee and helped mentor new Engineers.</li>
+              <li>- Work on implementing the UX using TypeScript, React, Redux and GraphQL/Apollo.</li>
+              <li>- Worked across multiple projects and teams including: client banking teams, internal tools and most recently working with on our Design Systems team.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
               <h4>Sr. Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2019 - December 2019</h5>
               <li>- Built the Product Page in Node.js, Express, Webpack, Redux, and React.</li>
-              <li>- Rebuilt the Webpack Server-side Rendering portion of our NodeJS powered app before seeking a new oppertunity.</li>
+              <li>- Rebuilt the Webpack Server-side Rendering portion of our NodeJS powered app.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
@@ -120,14 +120,14 @@ const Resume = () => {
               <li>- Handled new feature implementation, A/B Tests, and bug squishing on product pages.</li>
               <li>- Worked on a full-stack Node.js, Express, React, Redux mobile web app as well as various client-side repo&apos;s.</li>
               <li>- Was involved in the design process of product with UX and Product teammates.</li>
-              <li>- Built tools for our Front-end workflow. Such as implementing ES6 support and ReactJS into our repo.</li>
+              <li>- Built tools for our front-end workflow, such as implementing ES6 support and ReactJS into our repo.</li>
               <li>- Created reusable React components and NPM modules that are used by teams across Overstock.com.</li>
               <li>- During this time I was promoted to Senior Frontend Developer.</li>
               <li><strong>Previous Teams:</strong> ShopEx Dev, Production Marketing Dev.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
-              <h4>Front End Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
+              <h4>Frontend Developer <span className={styles.spanLight}>@</span> Overstock.com</h4>
               <h5>October 2014 - October 2015</h5>
               <li>Production Web Team:</li>
               <li>- Worked directly with Marketing, Product, and Back-end teams on various projects concerning the homepage of Overstock.com.
