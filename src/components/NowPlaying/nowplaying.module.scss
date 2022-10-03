@@ -5,11 +5,12 @@
   display: flex;
   flex-wrap: wrap;
   height: 50px;
-  margin: 20px 0;
+  margin: 20px 0 0 240px;
   justify-content: flex-start;
 
   @media screen and (max-width: $mobile) {
     height: auto;
+    margin-left: 0;
   }
 }
 
