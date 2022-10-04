@@ -10,7 +10,7 @@
   }
 }
 
-.header {
+.main {
   align-items: center;
   display: flex;
   max-width: 880px;
@@ -23,7 +23,7 @@
   }
 }
 
-.header-text {
+.main-text {
   h1,
   h2 {
     color: $color1;
@@ -57,7 +57,7 @@
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
 
     @media screen and (max-width: $mobile) {
