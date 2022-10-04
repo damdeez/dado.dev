@@ -156,7 +156,7 @@ const Resume = () => {
         </main>
         <footer className={styles.footer}>
           <div className={styles.footerButton}>
-            <a href="mailto:damir.hara@gmail.com">Get In Touch</a>
+            <a href="mailto:yes@damir.fun">Get In Touch</a>
           </div>
           <div className={styles.footerButton}>
             <a href={resumePdf}>Download PDF</a>
