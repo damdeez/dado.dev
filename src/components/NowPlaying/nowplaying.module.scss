@@ -16,8 +16,12 @@
 
 .album-cover img {
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 0 8px;
   width: 40px;
+
+  @media screen and (max-width: $mobile) {
+    margin: 0 8px 0 0;
+  }
 }
 
 .artist,
@@ -33,15 +37,7 @@
   margin: 0 1px 0;
 }
 
-@media screen and (max-width: $mobile) {
-  .footer {
-    margin-left: 24px;
-  }
-
-  .album-cover {
-    flex: 1 0 100%;
-  }
-  
+@media screen and (max-width: $mobile) {  
   .now-listening {
     flex: 1 0 100%;
     margin: 5px 0;
