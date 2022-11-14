@@ -96,7 +96,7 @@ const Resume = () => {
               <li>- Participated in a mentorship program in collaboration with Hackbright Academy.</li>
               <li>- Part of a hiring commitee and helped mentor new Engineers.</li>
               <li>- Work on implementing the UX using TypeScript, React, Redux and GraphQL/Apollo.</li>
-              <li>- Worked across multiple projects and teams including: client banking teams, internal tools and most recently working with on our Design Systems team.</li>
+              <li>- Worked across multiple projects and teams including: client banking teams, internal tools and most recently working on our new Design System.</li>
             </ul>
 
             <ul className={styles.jobWrapper}>
