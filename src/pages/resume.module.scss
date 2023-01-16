@@ -54,6 +54,11 @@
   margin: 5px 0;
 }
 
+.link svg {
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+
 .summary-paragraph {
   line-height: 18px;
   margin: 0 0 5px;
@@ -94,7 +99,7 @@
 
   h4,
   h5 {
-    margin: 10px 0;
+    margin: 10px 0 8px;
   }
 
   h4 {
@@ -115,7 +120,7 @@
 
 .tooltip-target-css,
 .tooltip-target-javascript {
-  -webkit-appearance: none;
+  appearance: none;
   background-color: $inherit;
   border: none;
   color: $color1;
