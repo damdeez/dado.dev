@@ -13,7 +13,7 @@ const HelmetMeta = ({
       name="description"
       content="Damir Harambasic is a Software Engineer based out of Salt Lake City, Utah, focused on UI/UX"
     />
-    <title>{pageTitle} | damirhara.dev damirthe.dev dado.dev</title>
+    <title>{pageTitle} | damirthe.dev damirhara.dev dado.dev damir.fun</title>
     <link rel="shortcut icon" href={favicon} type="image/x-icon" />
     {children}
   </Helmet>

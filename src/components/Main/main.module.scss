@@ -79,6 +79,21 @@
   }
 }
 
+.intro-paragraph {
+  font-size: 48px;
+  font-weight: 600;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  &::after {
+    animation: blink 1s steps(1, end) infinite;
+    content: '| ';
+  }
+}
+
 .damir-img {
   border: 5px solid $color1;
   border-radius: 50%;

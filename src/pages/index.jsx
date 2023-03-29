@@ -6,7 +6,7 @@ import './global.scss';
 
 const App = () => (
   <main className="main-page-content">
-    <HelmetMeta pageTitle="Web Development by Damir" />
+    <HelmetMeta pageTitle="Frontend Engineer and Developer" />
     <Main />
   </main>
 );
