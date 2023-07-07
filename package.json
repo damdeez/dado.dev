@@ -31,7 +31,7 @@
     "gatsby-plugin-eslint": "^2.0.8",
     "prettier": "^1.16.4",
     "sass": "^1.49.8",
-    "stylelint": "^10.0.1",
+    "stylelint": "^15.10.1",
     "stylelint-declaration-use-variable": "^1.7.0",
     "stylelint-order": "^3.0.0"
   },
