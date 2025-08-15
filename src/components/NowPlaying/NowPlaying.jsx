@@ -7,7 +7,7 @@ const NowPlaying = () => {
 
   useEffect(() => {
     if (window.fetch) {
-      window.fetch('//ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=damdeez&api_key=450b8037e3670e92714d68ea8dd86f1e&limit=1&format=json', {
+      window.fetch('//ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=damdeez&api_key=<API_KEY>&limit=1&format=json', {
         method: 'GET',
       }).then((response) => response.json())
         .then((data) => {
